@@ -1,3 +1,4 @@
-alias vs="vagrant status"
-alias vu="vagrant up"
-alias vp="vagrant provision"
+alias vs="cd $VAGRANT_PATH && vagrant status"
+alias vu="cd $VAGRANT_PATH && vagrant up"
+alias vp="cd $VAGRANT_PATH && vagrant provision"
+alias vh="cd $VAGRANT_PATH && vagrant halt"
