@@ -24,10 +24,12 @@
         excludesfile = ~/.gitignore
         editor = vim
 [apply]
-        whitespace = nowarn
+        whitespace = fix
 [mergetool]
         keepBackup = false
 [difftool]
         prompt = false
 [help]
         autocorrect = 1
+[push]
+        default = matching
