@@ -1,0 +1,5 @@
+alias tar_extract="tar xvf "
+alias z_extract="uncompress "
+alias gz_extract="gunzip "
+alias zcat_extract="zcat "
+alias gzcat_extract="gzcat "
