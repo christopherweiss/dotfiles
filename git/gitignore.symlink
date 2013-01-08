@@ -5,3 +5,7 @@
 *.rbc
 node_modules/
 .sass-cache/
+.coffee-cache/
+.idea/
+*.iml
+/out/
