@@ -1,13 +1,17 @@
 # Sample gitconfig
 #
-# You probably want to change the [user] section here since you are not me.
 
 [hub]
         protocol = https
 [user]
+<<<<<<< HEAD:git/gitconfig.symlink
         name = Christopher Weiss
         email = info@cweiss.de
 [credential]
+=======
+        name = AUTHORNAME
+        email = AUTHOREMAIL
+>>>>>>> f9d0656fa75a7592d9ed6efd5e4adcdcab8be738:git/gitconfig.symlink.example
         helper = osxkeychain
 [alias]
         co = checkout
@@ -32,4 +36,12 @@
 [help]
         autocorrect = 1
 [push]
+<<<<<<< HEAD:git/gitconfig.symlink
         default = matching
+=======
+        # See `git help config` (search for push.default)
+        # for more information on different options of the below setting.
+        #
+        # Setting to git 2.0 default to surpress warning message
+        default = simple
+>>>>>>> f9d0656fa75a7592d9ed6efd5e4adcdcab8be738:git/gitconfig.symlink.example
