@@ -7,7 +7,7 @@
         name = Christopher Weiss
         email = info@cweiss.de
 [credential]
-        helper = osxkeychain
+        helper = GIT_CREDENTIAL_HELPER
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
