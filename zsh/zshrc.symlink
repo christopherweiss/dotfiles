@@ -47,4 +47,4 @@ done
 
 unset config_files
 
-export PATH=/usr/local/share/npm/bin:$HOME/.rvm/bin:/usr/local/bin:$PATH # Add RVM to PATH for scripting
+export PATH=/usr/local/share/npm/bin:/Applications/sdk/tools:$HOME/.rvm/bin:/usr/local/bin:$PATH # Add RVM to PATH for scripting
